@@ -26,8 +26,8 @@ pipeline {
 
         stage ('Deploy to Production'){
             steps{
-                timeout(time:190, unit:'SECONDS'){
-                    input message:'Approve PRODUCTION Deployment?'
+                timeout(time:280, unit:'SECONDS'){
+                    input message:'Do you Approve PRODUCTION Deployment?'
                 }
 
                 build job: 'deploy_to_prod'
