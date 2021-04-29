@@ -207,7 +207,7 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
+    <connection>scm:git:git@github.com:Asnc501/jenkinspipeline.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
